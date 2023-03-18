@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    background-color: #EAFDFC;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #11999E;
+
+}
+
+h2 {
+    color: #11999E;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    font-size: 20px;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: #66BFBF;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #B9FFFC;
+    position: relative;
+    padding-top: 160px;
+}
+
+.middle-container {
+    margin: 100px auto 100px auto;
+}
+
+.bio {
+    padding-bottom: 100px;
+}
+
+.quote {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding: 2rem;
+}
+
+
+.footer-link {
+    color: #11999E;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 380px;
+    top: 150px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.my_pic {
+    height: 400px;
+    width: 450px;
+}
+
+.python_image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.cplus_image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.c_image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.data_structure_image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.group_of_birds {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+}
+
+.eagle_image {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.sun {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+
+.contact-me {
+    margin: 100px auto;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+
+}
+
+.bottom-container {
+    padding-top: 50px;
+    background: #66BFBF;
+    position: relative;
+    top: 15px;
+}
+
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #faf7f7;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #134587;
+  text-decoration: none;
+}
+
+
+.button {
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+.button2 {
+    position: fixed;
+    left: 200px;
+    top: 50px;
+}
+
+.button {
+  background: #34c6d9;
+  background-image: -webkit-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -moz-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -ms-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -o-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: linear-gradient(to bottom, #34c6d9, #34c6d9);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cfcfc;
+  text-decoration: none;
+}
+
+.button2 {
+  background: #34c6d9;
+  background-image: -webkit-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -moz-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -ms-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: -o-linear-gradient(top, #34c6d9, #34c6d9);
+  background-image: linear-gradient(to bottom, #34c6d9, #34c6d9);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background: #3cfcfc;
+  text-decoration: none;
+}
