@@ -1,0 +1,166 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+  width: 70%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.heading{
+  margin-bottom: 30px;
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-weight: bold;
+  color: hsl(183, 100%, 15%);
+}
+
+.input-container{
+  margin-right: 20px;
+}
+
+.form-control{
+  background-color: hsl(185, 41%, 84%) !important;
+}
+
+.form-control{
+  text-align: right;
+}
+
+.form-control::placeholder{
+  text-align: right;
+  direction: rtl;
+}
+
+.warning{
+  padding-left: 80px;
+  display: none;
+}
+
+.btn{
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover{
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+}
+
+label, .tips{
+  font-weight: bold;
+}
+
+#btn-special{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+
+.display-container{
+  background-color:  hsl(183, 100%, 15%);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.text{
+  margin-right: 8rem;
+}
+
+.text1{
+  color: white;
+}
+
+.text{
+  color: hsl(186, 14%, 43%);
+}
+
+.amount{
+  color: hsl(172, 67%, 45%);
+}
+
+.amount2{
+  margin-top: 23px;
+}
+
+.reset-btn{
+  background-color: hsl(184, 14%, 56%);
+  width: 80%;
+  position: absolute;
+  bottom: 20px; /* Adjust the value to control the vertical position */
+  left: 50%;
+  transform: translateX(-50%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bolder;
+}
+
+.reset-btn:hover{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+
+#btn-special {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+
+
+@media (max-width: 600px) {
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .heading{
+    padding-top: 100px;
+  }
+
+  .input-container{
+    margin: 0;
+  }
+
+  .btn{
+    width: 100px;
+  }
+
+  .text{
+    margin-right: auto;
+  }
+
+  .amount2{
+    margin-top: 30px;
+  }
+
+  .display-container{
+    padding-bottom: 80px;
+  }
+
+  .reset-btn{
+    width: 80%;
+    bottom: 1px;
+  }
+
+  .warning{
+    padding-left: 40px;
+  }
+}

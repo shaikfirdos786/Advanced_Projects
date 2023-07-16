@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .name{
+      color: hsl(183, 100%, 15%);
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: 2px 2px 8px #FF0000;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h5 class="text-center heading">SPLI <br> TTER</h5>
+    <div class="main-container">
+      <div class="input-container">
+        <label for="bill">Bill</label>
+        <div class="input-group mb-3 pt-1">
+          <span class="input-group-text">₹</span>
+          <input type="text" class="form-control" id="bill" placeholder="0">
+        </div>
+        <div class="tip mt-3 mb-3">
+          <h6 class="tips pb-2">Select Tip %</h6>
+          <input type="button" class="btn btn1"  value="5%">
+          <input type="button" class="btn btn1"  value="10%">
+          <input type="button" class="btn btn1"  value="15%">
+          <input type="button" class="btn btn1"  value="25%">
+          <input type="button" class="btn btn1"  value="50%">
+          <div class="btn" id="btn-special" contenteditable="true">Custom</div>
+        </div>
+        <label for="people">Number of people</label>
+        <span class="warning">cannot be zero</span>
+        <div class="input-group mb-3 pt-1">
+          <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+          <input type="text" class="form-control" id="people" placeholder="0">
+        </div>
+      </div>
+      <div class="display-container">
+        <div class="text">
+          <h6 class="text1">Tip&nbsp;Amount</h6>
+          <p class="text2">/&nbsp;person</p>
+          <br>
+          <h6 class="text1">Total&nbsp;Amount</h6>
+          <p class="text2">/&nbsp;person</p>
+        </div>
+        <div class="amount-container">
+          <h2 class="amount tipmoney">₹0.00</h2>
+          <br>
+          <h2 class="amount amount2 billmoney">₹0.00</h2>
+        </div>
+        <button type="button" class="btn reset-btn"  name="button">Reset</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="mt-5 pb-5">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="name">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/firdos-shaik-551b4222b/" target="_blank" class="name">Shaik Firdos</a>.
+    </div>
+  </footer>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+
+</html>
